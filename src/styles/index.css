@@ -1,12 +1,47 @@
+body{
+    margin-top: 50px;
+    justify-content: center;
+    background: #f8f7f7;
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+h1{
+    text-align: center;
+    font-family: 'Helvetica';
+    color: #efe3e4;
+}
+ul{
+    padding: 0;
+    margin-bottom: 0px;
+}
+ul li{
+    border: 1px solid grey;
+    list-style: none;
+    padding: 5px;
+    background: #f9f9f9;
+    cursor: pointer;
+    color: #979797;
+}
+input{
+    width: 100%;
+    border: 1px solid grey;
+    background: #f9f9f9;
+}
+.counter{
+    border: 1px solid grey;
+    background: #f9f9f9;
+    color: #dadada;
+}
+.pag1{
+    padding: 1.5px;
+    border: 1px solid grey;
+    background: #f9f9f9;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.pag2{
+    padding: 1px;
+    border: 1px solid grey;
+    background: #f9f9f9;
+    margin-left: 7px;
+    margin-right: 7px;
+}
