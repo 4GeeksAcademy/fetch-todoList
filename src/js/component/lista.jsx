@@ -56,7 +56,7 @@ const Fila = () =>{
 
 				{todos.map((t)=>(
                     <li key={t.id}>
-                        {t.label} <i className="borrar" onClick={borrarTarea(t.id)}><strong>X</strong></i>
+                        {t.label} <i className="borrar" onClick={()=>borrarTarea(t.id)}><strong>X</strong></i>
                     </li>
                 ))}
 			</ul>
